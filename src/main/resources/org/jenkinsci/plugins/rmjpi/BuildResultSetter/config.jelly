@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+    <f:entry title="Set current build result to" field="result">
+        <f:select />
+    </f:entry>
+
+    <f:entry title="Skip following build steps">
+      <f:checkbox field="skipFollowingBuildSteps" />
+    </f:entry>
+
+</j:jelly>
